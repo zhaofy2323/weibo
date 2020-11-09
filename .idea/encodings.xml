@@ -2,5 +2,11 @@
 <project version="4">
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/.env" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/Http/Controllers/Controller.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/Http/Controllers/StaticPagesController.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/resources/views/layouts/default.blade.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/resources/views/static_pages/about.blade.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/resources/views/static_pages/help.blade.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/resources/views/static_pages/home.blade.php" charset="UTF-8" />
   </component>
 </project>
