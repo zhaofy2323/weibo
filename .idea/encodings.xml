@@ -17,5 +17,6 @@
     <file url="file://$PROJECT_DIR$/resources/views/static_pages/home.blade.php" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/resources/views/users/show.blade.php" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/routes/web.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/webpack.mix.js" charset="UTF-8" />
   </component>
 </project>
