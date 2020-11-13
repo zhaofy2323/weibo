@@ -16,6 +16,7 @@
     <file url="file://$PROJECT_DIR$/resources/views/layouts/_footer.blade.php" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/resources/views/layouts/_header.blade.php" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/resources/views/layouts/default.blade.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/resources/views/shared/_errors.blade.php" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/resources/views/shared/_user_info.blade.php" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/resources/views/shared/_user_info.blade.php" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/resources/views/static_pages/about.blade.php" charset="UTF-8" />
