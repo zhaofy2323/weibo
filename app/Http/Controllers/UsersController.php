@@ -106,4 +106,21 @@ class UsersController extends Controller
         session()->flash('success', "个人资料更新成功");
         return redirect()->route('users.show', $user->id);
     }
+
+    /**
+     * 删除用户
+     * Created by zfy.
+     * Date:2020/11/13 17:18
+     * @param User $user
+     * @return \Illuminate\Http\RedirectResponse
+     * @throws \Exception
+     */
+    public function destroy(User $user)
+    {
+        //验证用户授权策略
+        $this->authorize('destroy', $user);
+        $user->delete();
+        session()->flash('success', '成功删除用户！');
+        return back();
+    }
 }
