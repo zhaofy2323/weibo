@@ -11,13 +11,26 @@ class UsersController extends Controller
     public function __construct()
     {
         $this->middleware('auth', [
-            'except' => ['show', 'create', 'store']
+            'except' => ['show', 'create', 'store', 'index']
         ]);
 
         //只让未登录用户访问注册页面
         $this->middleware('guest', [
             'only' => ['create']
         ]);
+    }
+
+    /**
+     * 用户列表
+     * Created by zfy.
+     * Date:2020/11/13 16:47
+     * @return \Illuminate\Contracts\View\Factory|\Illuminate\View\View
+     */
+    public function index()
+    {
+//        $users = User::all();
+        $users = User::paginate(5);
+        return view('users.index', compact('users'));
     }
 
     public function create()

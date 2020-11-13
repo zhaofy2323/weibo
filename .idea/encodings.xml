@@ -14,6 +14,9 @@
     <file url="file://$PROJECT_DIR$/app/Providers/AuthServiceProvider.php" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/config/app.php" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/config/auth.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/database/factories/UserFactory.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/database/seeds/UsersTableSeeder.php" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/node_modules/webpack-cli/package.json" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/package.json" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/resources/sass/app.scss" charset="UTF-8" />
@@ -26,8 +29,10 @@
     <file url="file://$PROJECT_DIR$/resources/views/static_pages/about.blade.php" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/resources/views/static_pages/help.blade.php" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/resources/views/static_pages/home.blade.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/resources/views/users/_user.blade.php" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/resources/views/users/create.blade.php" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/resources/views/users/edit.blade.php" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/resources/views/users/index.blade.php" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/resources/views/users/show.blade.php" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/routes/web.php" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/vendor/composer/autoload_static.php" charset="UTF-8" />
