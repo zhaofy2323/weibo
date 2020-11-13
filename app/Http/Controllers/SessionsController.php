@@ -29,4 +29,8 @@ class SessionsController extends Controller
             return redirect()->back()->withInput();
         }
     }
+
+    public function destroy(){
+        
+    }
 }
